@@ -1,13 +1,13 @@
-const checkNegativePositiveZero = (val) => {
-  if (val == 0) {
-    console.log("Number is zero")
-  } else if (val < 0) {
-    console.log("Number is negative");
+const checkIfZeroOrPositiveOrNegative = (value) => {
+  if (value == 0) {
+    console.log("value = 0")
+  } else if (value < 0) {
+    console.log("value = negative");
   } else {
-    console.log("Number is positive")
+    console.log("value = positive")
   }
 }
 
-checkNegativePositiveZero(1)
-checkNegativePositiveZero(-1)
-checkNegativePositiveZero(0)
+checkIfZeroOrPositiveOrNegative(1)
+checkIfZeroOrPositiveOrNegative(-1)
+checkIfZeroOrPositiveOrNegative(0)
