@@ -1,6 +1,6 @@
-let val1 = 1;
-let val2 = 2;
+var variable1 = 500;
+var variable2 = 600;
 
-[val1, val2] = [val2, val1];
+[variable1, variable2] = [variable2, variable1];
 
-console.log(val1, val2)
+console.log("value after swapping: ", variable1, variable2)
